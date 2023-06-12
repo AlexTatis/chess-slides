@@ -40,7 +40,7 @@ image: https://source.unsplash.com/collection/73658153/1920x1080
 # What is Chess?
 Chess is one of the oldest board games in the world. It's played between two players, simulating a war between two kingdoms. It's turn based and completely deterministic with no hidden information, meaning that the element of luck is almost non-existent.
 
-<img src="public/3398_black-king.png" class="absolute w-32 mt-10 rotate-12"  v-motion
+<img src="/3398_black-king.png" class="absolute w-32 mt-10 rotate-12"  v-motion
 :initial="{
   y: 0,
   rotate: 0
@@ -55,7 +55,7 @@ Chess is one of the oldest board games in the world. It's played between two pla
   },
 }">
 
-<img src="public/3402_black-knight.png" class="absolute w-32 mt-10 left-56 top-80 rotate-12"  v-motion
+<img src="/3402_black-knight.png" class="absolute w-32 mt-10 left-56 top-80 rotate-12"  v-motion
 :initial="{
   y: 0,
   x: 0,
@@ -102,7 +102,7 @@ layout: two-cols
 <img src="https://www.chessbazaar.com/blog/wp-content/uploads/2019/05/King.gif" alt="">
 ::right::
 <center>
-  <img src="public/3398_black-king.png" class="mt-30 w-50 rotate-12"  v-motion
+  <img src="/3398_black-king.png" class="mt-30 w-50 rotate-12"  v-motion
   :initial="{
     y: 0,
     x: 0,
@@ -128,7 +128,7 @@ layout: two-cols
 <img src="https://www.chessbazaar.com/blog/wp-content/uploads/2019/05/Queen.gif" alt="">
 ::right::
 <center>
-  <img src="public/3399_black-queen.png" class="mt-30 w-50 rotate-12"  v-motion
+  <img src="/3399_black-queen.png" class="mt-30 w-50 rotate-12"  v-motion
   :initial="{
     y: 0,
     x: 0,
@@ -155,7 +155,7 @@ layout: two-cols
 <img src="https://www.chessbazaar.com/blog/wp-content/uploads/2019/05/Bishop.gif" alt="">
 ::right::
 <center>
-  <img src="public/3401_black-bishop.png" class="mt-30 w-50 rotate-12"  v-motion
+  <img src="/3401_black-bishop.png" class="mt-30 w-50 rotate-12"  v-motion
   :initial="{
     y: 0,
     x: 0,
@@ -181,7 +181,7 @@ layout: two-cols
 <img src="https://www.chessbazaar.com/blog/wp-content/uploads/2019/05/Knight.gif" alt="">
 ::right::
 <center>
-  <img src="public/3402_black-knight.png" class="mt-30 w-50 rotate-12"  v-motion
+  <img src="/3402_black-knight.png" class="mt-30 w-50 rotate-12"  v-motion
   :initial="{
     y: 0,
     x: 0,
@@ -207,7 +207,7 @@ layout: two-cols
 <img src="https://www.chessbazaar.com/blog/wp-content/uploads/2019/05/Rook.gif" alt="">
 ::right::
 <center>
-  <img src="public/3400_black-rook.png" class="mt-30 w-50 rotate-12"  v-motion
+  <img src="/3400_black-rook.png" class="mt-30 w-50 rotate-12"  v-motion
   :initial="{
     y: 0,
     x: 0,
@@ -233,7 +233,7 @@ layout: two-cols
 <img src="https://www.chessbazaar.com/blog/wp-content/uploads/2019/05/Pawn.gif" alt="">
 ::right::
 <center>
-  <img src="public/3403_black-pawn.png" class="mt-30 w-50 rotate-12"  v-motion
+  <img src="/3403_black-pawn.png" class="mt-30 w-50 rotate-12"  v-motion
   :initial="{
     y: 0,
     x: 0,

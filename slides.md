@@ -298,7 +298,7 @@ transition: slide-left
 ---
 transition: slide-left
 layout: image-right
-image: https://stockfishchess.org/images/logo/icon_512x512@2x.png
+image: https://upload.wikimedia.org/wikipedia/commons/8/89/Stockfish_icon_%282010-2020%29.png
 ---
 
 # Stockfish

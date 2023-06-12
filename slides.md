@@ -282,6 +282,35 @@ transition: slide-left
 
 ---
 transition: slide-left
+---
+
+# Strategic concepts
+
+<div>
+  Strategy in chess is, as expected, vast. Here are some keywords worth mentioning around the many strategic concepts in the chess world:
+  
+  - **Pawn structure**: This refers to the many ways that your pawns can arrange between themselves (pyramid, doubled pawns...)
+  - **Keeping the king safe**: Perhaps via castling, or maybe a fiaccento-ed bishop.
+  - **Forks**: This is when you attack two opponent pieces at the same time, so that you force the enemy to make a sacrifice.
+  - **Pins**: There are both absolute and relative pins. They are based around restricting the movement of an enemy piece, as it would discover an attack to another valuable asset.
+</div>
+
+---
+transition: slide-left
+layout: image-right
+image: /Stockfish_icon_(2010-2020).png
+---
+
+# Stockfish
+
+<div>
+  Stockfish is a remarkable open-source chess engine that embodies the cutting-edge of computer chess. It is used almost on every chess app, as a training bot or as an analyzer. Its open-source nature makes it easy to tamper with and implement in your own apps.
+
+  Checkout its [github page](https://github.com/official-stockfish/Stockfish)!
+</div>
+
+---
+transition: slide-left
 layout: two-cols
 ---
 # What're ELO points?

@@ -19,6 +19,8 @@ function handleCheckmate(isMated: string) {
   }
 }
 
+// Slidev scaling code
+
 const width = computed(() => innerWidth)
 const height = computed(() => innerHeight)
 
@@ -50,7 +52,7 @@ const scale = computed(() => {
       :style="{
         'transform': `scale(${1 / scale})`
       }"
-      class="p-0 m-0 text-center w-96"
+      class="w-2/4 p-0 m-0 text-center"
     />
 
   </section>

@@ -96,6 +96,164 @@ transition: slide-left
 </div>
 
 ---
+layout: two-cols
+---
+
+<img src="https://www.chessbazaar.com/blog/wp-content/uploads/2019/05/King.gif" alt="">
+::right::
+<center>
+  <img src="public/3398_black-king.png" class="mt-30 w-50 rotate-12"  v-motion
+  :initial="{
+    y: 0,
+    x: 0,
+    rotate: 0
+  }"
+  :enter="{
+    y: -50,
+    x: -30,
+    rotate: 360,
+    transition: {
+      repeat: Infinity,
+      repeatType: 'mirror',
+      type: 'spring',
+      duration: 3000
+    },
+  }">
+</center>
+
+---
+layout: two-cols
+---
+
+<img src="https://www.chessbazaar.com/blog/wp-content/uploads/2019/05/Queen.gif" alt="">
+::right::
+<center>
+  <img src="public/3399_black-queen.png" class="mt-30 w-50 rotate-12"  v-motion
+  :initial="{
+    y: 0,
+    x: 0,
+    rotate: 0
+  }"
+  :enter="{
+    y: -50,
+    x: -30,
+    rotate: 360,
+    transition: {
+      repeat: Infinity,
+      repeatType: 'mirror',
+      type: 'spring',
+      duration: 3000
+    },
+  }">
+</center>
+
+
+---
+layout: two-cols
+---
+
+<img src="https://www.chessbazaar.com/blog/wp-content/uploads/2019/05/Bishop.gif" alt="">
+::right::
+<center>
+  <img src="public/3401_black-bishop.png" class="mt-30 w-50 rotate-12"  v-motion
+  :initial="{
+    y: 0,
+    x: 0,
+    rotate: 0
+  }"
+  :enter="{
+    y: -50,
+    x: -30,
+    rotate: 360,
+    transition: {
+      repeat: Infinity,
+      repeatType: 'mirror',
+      type: 'spring',
+      duration: 3000
+    },
+  }">
+</center>
+
+---
+layout: two-cols
+---
+
+<img src="https://www.chessbazaar.com/blog/wp-content/uploads/2019/05/Knight.gif" alt="">
+::right::
+<center>
+  <img src="public/3402_black-knight.png" class="mt-30 w-50 rotate-12"  v-motion
+  :initial="{
+    y: 0,
+    x: 0,
+    rotate: 0
+  }"
+  :enter="{
+    y: -50,
+    x: -30,
+    rotate: 360,
+    transition: {
+      repeat: Infinity,
+      repeatType: 'mirror',
+      type: 'spring',
+      duration: 3000
+    },
+  }">
+</center>
+
+---
+layout: two-cols
+---
+
+<img src="https://www.chessbazaar.com/blog/wp-content/uploads/2019/05/Rook.gif" alt="">
+::right::
+<center>
+  <img src="public/3400_black-rook.png" class="mt-30 w-50 rotate-12"  v-motion
+  :initial="{
+    y: 0,
+    x: 0,
+    rotate: 0
+  }"
+  :enter="{
+    y: -50,
+    x: -30,
+    rotate: 360,
+    transition: {
+      repeat: Infinity,
+      repeatType: 'mirror',
+      type: 'spring',
+      duration: 3000
+    },
+  }">
+</center>
+
+---
+layout: two-cols
+---
+
+<img src="https://www.chessbazaar.com/blog/wp-content/uploads/2019/05/Pawn.gif" alt="">
+::right::
+<center>
+  <img src="public/3403_black-pawn.png" class="mt-30 w-50 rotate-12"  v-motion
+  :initial="{
+    y: 0,
+    x: 0,
+    rotate: 0
+  }"
+  :enter="{
+    y: -50,
+    x: -30,
+    rotate: 360,
+    transition: {
+      repeat: Infinity,
+      repeatType: 'mirror',
+      type: 'spring',
+      duration: 3000
+    },
+  }">
+</center>
+
+
+---
 transition: slide-left
 layout: iframe-right
 url: https://www.chess.com/emboard?id=10690559
@@ -108,7 +266,7 @@ url: https://www.chess.com/emboard?id=10690559
   
   If the latter is your desired choice, I recommend checking out [chess.com](https://chess.com). It has a great UI and features, most Grand Masters play there.
 
-  It can also let you review your past games. This is a game played by the former World Champ, Magnus Carlsen, and GM Hikaru Nakamura.
+  It can also let you review your past games. This is a game extracted from their archive played by the former World Champ, Magnus Carlsen, and GM Hikaru Nakamura.
 </div>
 
 </div>
@@ -117,17 +275,18 @@ url: https://www.chess.com/emboard?id=10690559
 transition: slide-left
 ---
 # Parts of a chess game
- - Opening: Ah, the opening! Just like a blank canvas ready to be painted by masterful brushstrokes, this is when you decide the strategy to seize control of the board. Even though there is a lot of theory surrounding openings, the main idea is getting your pieces in active places, where they will be useful on your search for domination of the center. As you may have guessed, the center plays a major role in how a game will flesh out.
- - Middlegame: Once you have survived the opening, the middlegame starts. Here, you will have to find weakspots in the enemies position, or perhaps making them yourself...
- - Endgame: When the dust from the middlegame settles, it's time for the endgame. Players aim to convert their advantage into a victorious end. As endgames don't have as many variables, there're emerging patterns that are worth studying, such as fortresses and ladder mates.
+ - **Opening**: Ah, the opening! Just like a blank canvas ready to be painted by masterful brushstrokes, this is when you decide the strategy to seize control of the board. Even though there is a lot of theory surrounding openings, the main idea is getting your pieces in active places, where they will be useful on your search for domination of the center. As you may have guessed, the center plays a major role in how a game will flesh out.
+ - **Middlegame**: Once you have survived the opening, the middlegame starts. Here, you will have to find weakspots in the enemies position, or perhaps making them yourself...
+ - **Endgame**: When the dust from the middlegame settles, it's time for the endgame. Players aim to convert their advantage into a victorious end. As endgames don't have as many variables, there're emerging patterns that are worth studying, such as fortresses and ladder mates.
 
 
 ---
 transition: slide-left
+layout: two-cols
 ---
 # What're ELO points?
 
-<div>
+<div class="text-sm">
   Most online games implement a "ladder" competitive system in which players are ranked by their total score. This is nothing new in the chess world, as we have what are called ELO points. ELO is the way to measure the average rank of a player. It is dependant of course, on the win ratio, but also on other factors, as the strength of your oponent.
   Making your ELO grow is a testament to ones dedication to studying the game, but in the professional scene there are real races to be placed at the top. The rank system that FIDE defines depending on the ELO is as follows:
 
@@ -143,10 +302,14 @@ transition: slide-left
   - **National Masters (NM)**: 2200-2300
   - **International Masters (IM)**: 2300-2400
   - **Grandmasters (GM)**: 2500-2700
-  - **"Super grandmasters"**: 2700+
   </div>
 
 </div>
+
+
+::right::
+
+<img src="/Capture-d’écran-2020-06-25-à-17.15.53.png" class="ml-8 rounded-lg" alt="">
 
 ---
 transition: slide-left
@@ -162,9 +325,14 @@ transition: slide-left
 # url: https://fritz.chessbase.com
 ---
 
-# Test
+<center>
+  <Chessboard></Chessboard>
+  
+  _Note: you may require to reset the board if it is unresponsive_
 
-<Chessboard></Chessboard>
+</center>
+
+
 
 
 
